@@ -1,0 +1,11 @@
+<h1>Welcome to Criticx</h1>
+
+<h3>Games</h3>
+<ul>
+  <% @games.each do | game | %>
+  <li>
+    <strong><%= game.name %></strong>
+    <p><%= game.descriptioon %></p>
+  </li>
+  <% end %>
+</ul>
